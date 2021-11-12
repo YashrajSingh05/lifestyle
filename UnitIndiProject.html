@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping At Lifestyle</title>
+  <style>
+    .body{
+      font-family: "ProximaNova","Helvetica Neue",Helvetica,Arial,sans-serif;
+      background-color: #fff;
+      padding: none;
+    }
+    .top-nav{
+      border:none;
+      width: 100%;
+      height: 40px;
+      background-color: black;
+      color: white;
+      padding: 0px 60px 0px 60px;
+      
+    }
+    .menu-nav{
+      
+      width: 100%;
+      height: 60px;
+      background: #f7f8f7;
+      display: flex;
+      font-weight: bold;
+    }
+    .main-container{
+      
+      width: 100%;
+      height: 600px;
+    }
+    .main-footer{
+      width: 100%;
+    }
+    .footer-contain {
+    display: flex;
+    padding: 0 0 2px 0;
+  }
+  .footer>div{
+    margin-right: 100px;
+  }
+  li{
+    display: list-item;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    
+    text-align: left;
+    list-style: none;
+  }
+  .footer-title{
+    
+    margin: 5px 3px;
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  .footer-contact {
+    border-top: 1pxsolid #ecedeb;
+    border-bottom: 1px solid #ecedeb;
+    padding: 32px 0;
+    
+  }
+  .footer>div>ul>li{
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+  .contact-details{
+    height: 48px;
+    display: inline-block;
+  }
+  .socials-column {
+    background: inherit;
+    margin: 0;
+    width: auto;
+  }
+  .contact-container{
+    display: flex;
+    border-top: 1px solid #ecedeb;
+    border-bottom: 1px solid #ecedeb;
+    padding: 32px 0;
+  }
+  .contact-container span{
+    padding-left: 12px;
+    padding-right: 57px;
+  }
+  .contact-container span, .contact-container img{
+    float: left;
+  }
+  div{
+    display: block;
+  }
+  .social-column-list>li{
+    display: inline-block;
+    padding: 0;
+    margin-left: 32px;
+  }
+  
+  .helpbar-title{
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #929391;
+  }
+  .helpbar-content{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212121;
+    
+  }
+  .helpbar-content a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .contact-details>p{
+    margin: 0;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .logo {
+    float: none;
+    width: 151px;
+    height: 16px;
+    margin-right:0px ;
+    margin: 50px;
+  }
+  .text-holder {
+    width: auto;
+    font-size: 13px;
+    margin-left:10px ;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.text-holder>p>a{
+  text-decoration: none;
+  color: #a6a6a6;
+}
+.block {
+    position: relative;
+    background: inherit;
+    border: 0;
+    color: #a6a6a6;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+.block-inside{
+  display: flex;
+}
+.footer-bar{
+  border-top: 1px solid rgb(235, 235, 235);
+  border-bottom: 1px solid rgb(235, 235, 235);
+  height: 250px;
+  width: 100%;
+}
+.footer-bar-insidebox{
+  width: 98%;
+  height: 152px;
+  margin: 48px auto 48px auto;
+}
+.footer-bar-left{
+  width: 40%;
+  height: 150px;
+  float: left;
+  margin-left: 80px;
+}
+.footer-bar-right{
+  width: 33%;
+  height: 150px;
+  float: right;
+  margin-right: 80px;
+}
+.footer-bar-title{
+  font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212121;
+    margin: 0;
+}
+.footer-bar-text{
+  font-size: 18px;
+  color: #202020;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.footer-bar-left>form>fieldset{
+  padding: 0px;
+  border: none;
+  height: 50px;
+  width: inherit;
+}
+
+.subscribe-btn{
+  height: inherit;
+  width: 200px;
+  margin:-8px 0 -10px 0 ;
+  background: #000;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+.form-input{
+  height: inherit;
+  width: 300px;
+  margin: 0;
+  color: #5d5e5d;
+  box-shadow: none;
+  border: none;
+  background: #f5f5f5;
+}
+
+
+
+.app-icon {
+    width: 176 px;
+    height: 52px;
+    margin: 2px;
+}
+.black{
+  display: flex;
+}
+
+.left{
+  
+  display: flex;
+  
+}
+.menu{
+  margin-right: 20px;
+  display: flex;
+}
+.menu>picture{
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.right{
+  
+  display: flex;
+  margin-left: 500px;
+  margin-top: 10px;
+
+}
+.menu-link{
+  text-decoration: none;
+  color: rgb(247, 245, 245);
+}
+.menu-navIn{
+  display: flex;
+  margin-left: 100px;
+
+}
+.menu-nav-dept{
+  padding-top: 20px ;
+}
+.menu-nav-deptIn{
+  
+  padding: 20px 10px 0 10px; 
+}
+.menu-nav-x{
+  display: flex;
+}
+.menu-nav-x span{
+  display: flex;
+}
+.menu-nav-search{
+  margin: 20px 20px 0 100px;
+}
+.menu-nav-signin, .menu-nav-cart{
+  margin:20px 0 0 50px ;
+}
+.form-control-search{
+  height: 30px;
+  width: 350px;
+}
+.main-container-in{
+  
+  height: 500px;
+  width: 1205px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  
+}
+.main-container-img{
+  height: inherit;
+  width: 300px;
+}
+.images{
+  height: 500px;
+  width: 300px;
+  max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+  </style>
+</head>
+<body>
+  <div class="top-nav">
+    <div class="container-fluid">
+      <ul class="black">
+          <span class="left">
+              <li class="menu">
+                  <picture>
+                    <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/shipping-icon.svg" alt="">
+                  </picture>
+                  <p>Free Shipping</p>
+              </li>
+              <li class="menu">
+                   <picture>
+                    <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/clickcollect-icon.svg" alt="">
+                    </picture>
+                   <p>Click & Collect</p>
+               </li>
+               <li class="menu">
+                   <picture>
+                    <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/clickcollect-icon.svg" alt="">
+                    </picture>
+                   <p>Return to store</p>
+               </li>
+          </span>
+          <span class="right">
+            <li class="menu" >
+              <a class="menu-link" href="/in/en/apps" title="Download our Apps">Download our Apps</a>&nbsp; &nbsp;|</li>
+            <li class="menu" >
+              <a class="menu-link" href="/in/en/storelocator" title="Store Locator">Store Locator</a>&nbsp; &nbsp;|</li>
+            <li class="menu" >
+              <span>
+                <a class="menu-link" href="https://helpin.lifestylestores.com/en/support/home#/en/support/home"> Help</a>
+              </span>
+            </li>
+          </span>
+      </ul>
+    </div>
+  </div>
+  <nav class="menu-nav">
+    <nav class="menu-navIn">
+      <figure class="logo-top" style="visibility: visible;">
+        <a href="/in/en/"><img title="lifestyle logo" alt="lifestyle logo" src="//i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg"></a>
+      </figure>
+      
+      <span class="menu-nav-dept">
+          <span class="menu-nav-deptIn"><a href="#">Women</a></span>
+          <span class="menu-nav-deptIn"><a href="#">Men</a></span>
+          <span class="menu-nav-deptIn"><a href="#">Kids</a></span>
+          <span class="menu-nav-deptIn"><a href="#">Shoes & Bags</a></span>
+        </span>
+      <span class="menu-nav-search">
+        <form name="search_form_SearchBox" method="get" action="/in/en/search/" class="search-form">
+              <div>
+              <input type="text"  class="form-control-search" name="q"  placeholder="What are you looking for?"  style="opacity: 1;">
+              </div>
+            </form>
+      </span>
+      <span class="menu-nav-signin">
+             <a href="#">
+               Sign Up - Sign In
+             </a>
+             &nbsp;&nbsp;|
+      </span>
+      <span class="menu-nav-cart">
+            <div>
+                <a  href="#"> Basket</a>
+              
+  
+            </div>
+            <img>
+      </span>
+      
+      
+    </nav>
+  </nav>
+  <div class="main-container">
+    <div class="main-container-in">
+      <div class="main-container-img">
+        <a href="#">
+          <img class="images" src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/Flyout-Women-Tops-Desktop1-21Sept2020.jpg">
+        </a>
+      </div>
+      <div class="main-container-img">
+        <a href="#">
+          <img class="images" src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/Flyout-Mens-Bottomwear-Desktop1-21Sept2020.jpg">
+        </a>
+      </div>
+      <div class="main-container-img">
+        <a href="#">
+          <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk05vWdeVlPCKhx-OSfSxbF2SJHVZtztqHjg&usqp=CAU">
+        </a>
+      </div>
+      <div class="main-container-img">
+        <a href="#">
+          <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2NGe8QJgs0kc22XuA-kbaxcWKDxbaJFyoA&usqp=CAU">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="main-footer">
+    <footer class="footerbox" itemscope>
+      <div class="footer-bar">
+          <div class="footer-bar-insidebox">
+              
+                  <div class="footer-bar-left">
+                      <form>
+                          <label>
+                            <strong class="footer-bar-title ">Subscribe to our awesome emails. </strong>
+                            <div  class="footer-bar-text">Get our latest offers and news straight in your inbox.</div>
+                          </label>
+                          <fieldset>
+                            <input class="form-input" type="email"  placeholder="Please enter an email address" />
+                              <button type="sumit" class="subscribe-btn">Subscribe</button>
+                          </fieldset>
+
+                      </form>
+                  </div>
+                  <div class="footer-bar-right">
+                    <strong class="footer-bar-title">Enjoy our amazing apps</strong>
+                    <div class="footer-bar-text">Shop our products and offers on-the-go.</div>
+                    <nav>
+                      <a href="https://itunes.apple.com/us/app/lifestyle-india/id1180884618?ls=1&amp;mt=8">
+                      <img class="app-icon" src="//i1.lmsin.net/website_images/misc/apple-app-store.svg" alt="Download on the App Store" >
+                      </a>
+                      <a href="https://play.google.com/store/apps/details?id=com.applications.lifestyle">
+                      <img class="app-icon" src="//i1.lmsin.net/website_images/misc/google-play-store.svg" alt="Get in on Google Play" >
+                      </a>
+                      </nav>
+                  </div>
+              
+          </div>
+        </div>
+      <div class="container-fluid">
+          <nav class="footer-nav">
+              <ul class="footer-contain">
+                  <li class="footer">
+                      <div>
+                          
+                              <ul >
+                                <div class="footer-title">Women</div>
+                                  <li><a href="#">Tops</a></li>
+                                  <li><a href="#">Ethnicwear</a></li>
+                                  <li><a href="#">Bottoms</a></li>
+                                  <li><a href="#">Winterwear</a></li>
+                                  <li><a href="#">Dresses & Jumpsuits</a></li>
+                                  <li><a href="#">Lingerie</a></li>
+                                  <li><a href="#">Nightwear</a></li>
+                                  <li><a href="#">Sportswear</a></li>
+                                  <li><a href="#">Beauty</a></li>
+                                  <li><a href="#">Watches &</a></li>
+                                  <li><a href="#">Sunglasses</a></li>
+                              </ul>
+                          
+                      </div>
+                  </li>
+                  <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">Men</div>
+                               <li><a href="#"> Tops</a></li>
+                               <li><a href="#">Ethnicwear</a></li>
+                               <li><a href="#">Bottoms</a></li>
+                               <li><a href="#">Winterwear</a></li>
+                               <li><a href="#">Sportswear</a></li>
+                               <li><a href="#">Innerwear</a></li>
+                               <li><a href="#">Grooming</a></li>
+                               <li><a href="#">Watches &</a></li>
+                               <li><a href="#">Sunglasses</a></li>
+                           </ul>
+                       
+                   </div>
+               </li>
+               <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">Kids</div>
+                               <li><a href="#">Girls Clothing</a></li>
+                               <li><a href="#">Boys Clothing</a></li>
+                               <li><a href="#">Infants Girls</a></li>
+                               <li><a href="#">Infant Boys</a></li>
+                               <li><a href="#">Winterwear</a></li>
+                               <li><a href="#">Add On</a></li>
+                               <li><a href="#">The Teen Shop</a></li>
+                           </ul>
+                       
+                   </div>
+               </li>
+               <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">Shoes & Bags</div>
+                               <li><a href="#">Women</a></li>
+                               <li><a href="#">Men</a></li>
+                               <li><a href="#" >Boys</a></li>
+                               <li><a  href="#">Girls</a></li>
+                               <li><a  href="#">Women Accessories</a></li>
+                               <li><a  href="#">Men Accessories</a></li>
+                               <li><a href="#">Essential</a></li>
+                               
+                           </ul>
+                       
+                   </div>
+               </li>
+               <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">Explore </div>
+                               <li><a  href="#">Online Offers</a></li>
+                               <li><a href="#">Store Offers</a></li>
+                               <li><a href="#">Online Gift Card</a></li>
+                               <li><a href="#">Store Gift Card</a></li>
+                               <li><a href="#">Stores Nearby</a></li>
+                               <li><a href="#">EDGE Membership</a></li>
+                               <li><a href="#">Refer & Win</a></li>
+                               <li><a href="#"> Shop on Whatsapp</a></li>
+                               <li><a href="#">Fashion VLOG</a></li>
+                               <li><a href="#">Join CIRLEMAG</a></li>
+                               <li><a href="#">SBI Offers</a></li>
+                               <li><a href="#">Homecentre</a></li>
+                               
+                           </ul>
+                      
+                   </div>
+               </li>
+              </ul>
+              <ul  class="footer-contain">
+               <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">About</div>
+                               <li><a href="#">About Us</a></li>
+                               <li><a href="#">Careers</a></li>
+                               <li><a href="#">Take a Tour</a></li>
+                               <li><a href="#">Blog</a></li>
+                               <li><a href="#">Store Locator</a></li>
+                               <li><a href="#">Landmark Cares</a></li>
+                               
+                           </ul>
+                      
+                   </div>
+               </li>
+               <li class="footer">
+                   <div>
+                       
+                           <ul>
+                            <div class="footer-title">Help</div>
+                               <li><a href="#">Contact us</a></li>
+                               <li><a href="#">Shipping</a></li>
+                               <li><a href="#">Return Process</a></li>
+                               <li><a href="#">Return Policy</a></li>
+                               <li><a href="#">Help Centre</a></li>
+                               
+                           </ul>
+                      
+                   </div>
+               </li>
+              </ul>
+          </nav>
+      </div>
+      <div class="container-fluid ">
+          <div class="contact-container">
+              <div class="contact-details">
+                  <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/contact-phone.svg" />
+                  <span>
+                      <div class="helpbar-title">Take To Us</div>
+                      <div class="helpbar-content">
+                        <a class="link" href="tel:1800-123-1555/">1800-123-1555</a>
+                      </div>
+                  </span> 
+              </div>
+              <div  class="contact-details">
+               <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/contact-help.svg">
+               <span>
+                   <div  class="helpbar-title">Help Cetre</div>
+                   <div class="helpbar-content">
+                      <a href="https://helpin.lifestylestores.com/en/support/home#/en/support/home">help.lifestylestores.com</a>
+                   </div>
+               </span> 
+              </div>
+              <div  class="contact-details">
+               <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/contact-mail.svg">
+               <span>
+                   <div class="helpbar-title">Write to us</div>
+                   <div class="helpbar-content">
+                    <a href="/in/en/write-to-us">help@lifestylestores.com</a>
+                   </div>
+               </span> 
+              </div>
+              <div class="social-column">
+                  <ul class="social-column-list">
+                      <li>
+                        <a class="social-link" href="http://www.facebook.com/lifestylestores/" >
+                          <i class="icon-facebook">
+                            <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/fb-icon.svg">
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-link" href="https://twitter.com/@Lifestyle_Store" >
+                          <i class="icon-twitter">
+                            <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/twitter-icon.svg">
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-link" href="https://www.instagram.com/lifestylestores" >
+                          <i class="icon-instagram">
+                            <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/images/instagram-icon.svg">
+                          </i>
+                        </a>
+                      </li>
+                  </ul>
+              </div>
+          </div> 
+      </div>
+      <div class="block">
+          <div>
+              <div class="block-inside">
+                <div class="logo">
+                  <a href=""><img title="lifestyle logo" alt="lifestyle logo" src="http://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg"></a>
+                </div>
+                <div class="text-holder">
+                  <p>© 2021&nbsp;<span>RNA Intellectual Property Limited</span>.</p>
+                  <p>
+                    <a href="/in/en/termsandconditions" target="_self">Terms &amp; Conditions</a> - <a href="/in/en/privacypolicy" target="_self">Privacy Policy</a>
+                  </p>
+                </div>
+                  
+              </div>
+          </div>
+      </div>
+
+  </footer>
+
+  </div>
+</body>
+</html>
